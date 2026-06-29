@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f3f0e6;
+  --foreground: #24201a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+label:focus-within {
+  outline: 3px solid #1f6970;
+  outline-offset: 3px;
+}
+
+.newspaper-sheet {
+  background-image:
+    linear-gradient(rgba(36, 32, 26, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(36, 32, 26, 0.035) 1px, transparent 1px);
+  background-size: 100% 16px, 16px 100%;
+}
+
+.preview-grid {
+  background-image:
+    radial-gradient(
+      circle at center,
+      rgba(36, 32, 26, 0.14) 0 1px,
+      transparent 1.8px
+    ),
+    linear-gradient(135deg, rgba(125, 47, 59, 0.12), transparent 38%),
+    linear-gradient(315deg, rgba(31, 105, 112, 0.14), transparent 42%);
+  background-size: var(--dot) var(--dot), 100% 100%, 100% 100%;
+}
