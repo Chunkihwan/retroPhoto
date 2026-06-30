@@ -13,11 +13,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: '레트로 스튜디오',
-    description: '옛날 신문 느낌의 도트 이미지로 바꾸는 앱.',
+    metadataBase: new URL('https://retro-photo-studio.newstapa-5406.chatgpt-team.site'),
+    title: '레트로 사진관',
+    description: '사진을 옛날 신문 느낌의 도트 이미지로 바꿔주는 브라우저 앱.',
     icons: {
         icon: '/favicon.svg',
         shortcut: '/favicon.svg',
+    },
+    openGraph: {
+        title: '레트로 사진관',
+        description: '사진을 옛날 신문 느낌의 도트 이미지로 바꿔주는 브라우저 앱.',
+        url: '/',
+        siteName: '레트로 사진관',
+        type: 'website',
+        locale: 'ko_KR',
+        images: [
+            {
+                url: '/og-image.png',
+                width: 1200,
+                height: 630,
+                alt: '레트로 사진관 공유 이미지',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: '레트로 사진관',
+        description: '사진을 옛날 신문 느낌의 도트 이미지로 바꿔주는 브라우저 앱.',
+        images: ['/og-image.png'],
     },
 };
 
