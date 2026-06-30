@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://retro-photo-studio.newstapa-5406.chatgpt-team.site'),
+    metadataBase: new URL('https://retro-photo-blond.vercel.app'),
     title: '레트로 사진관',
     description: '사진을 옛날 신문 느낌의 도트 이미지로 바꿔주는 브라우저 앱.',
     icons: {
