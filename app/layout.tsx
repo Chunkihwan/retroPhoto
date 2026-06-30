@@ -14,17 +14,17 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://retro-photo-blond.vercel.app'),
-    title: '레트로 사진관',
+    title: '레트로 스튜디오',
     description: '사진을 옛날 신문 느낌의 도트 이미지로 바꿔주는 브라우저 앱.',
     icons: {
         icon: '/favicon.svg',
         shortcut: '/favicon.svg',
     },
     openGraph: {
-        title: '레트로 사진관',
+        title: '레트로 스튜디오',
         description: '사진을 옛날 신문 느낌의 도트 이미지로 바꿔주는 브라우저 앱.',
         url: '/',
-        siteName: '레트로 사진관',
+        siteName: '레트로 스튜디오',
         type: 'website',
         locale: 'ko_KR',
         images: [
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
                 url: '/og-image.png',
                 width: 1200,
                 height: 630,
-                alt: '레트로 사진관 공유 이미지',
+                alt: '레트로 스튜디오 공유 이미지',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: '레트로 사진관',
+        title: '레트로 스튜디오',
         description: '사진을 옛날 신문 느낌의 도트 이미지로 바꿔주는 브라우저 앱.',
         images: ['/og-image.png'],
     },

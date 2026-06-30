@@ -598,7 +598,7 @@ export default function RetroStudio() {
                             <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-[#7d2f3b]">
                                 Retro Studio
                             </p>
-                            <h1 className="mt-1 text-3xl font-black leading-none">레트로 사진관</h1>
+                            <h1 className="mt-1 text-3xl font-black leading-none">레트로 스튜디오</h1>
                         </div>
                     </div>
                     <div className="mt-3">{renderActionButtons(true)}</div>
@@ -613,7 +613,7 @@ export default function RetroStudio() {
                 <aside className="hidden flex-col gap-4 lg:flex lg:sticky lg:top-0 lg:h-screen lg:overflow-y-auto lg:px-7 lg:py-4">
                     <div className="border border-[#24201a] bg-[#fbf7e9] p-5 shadow-[5px_5px_0_#24201a]">
                         <p className="font-mono text-xs uppercase tracking-[0.28em] text-[#7d2f3b]">Retro Studio</p>
-                        <h1 className="mt-3 text-3xl font-black leading-none sm:text-4xl">레트로 사진관</h1>
+                        <h1 className="mt-3 text-3xl font-black leading-none sm:text-4xl">레트로 스튜디오</h1>
                     </div>
 
                     {renderUploadDropzone()}
