@@ -591,7 +591,7 @@ export default function RetroStudio() {
                 onChange={onInputChange}
             />
 
-            <section className="flex min-h-screen w-full flex-col gap-4 px-3 py-3 lg:grid lg:grid-cols-[330px_minmax(0,1fr)] lg:gap-0">
+            <section className="flex min-h-screen w-full flex-col gap-4 lg:grid lg:grid-cols-[330px_minmax(0,1fr)] lg:gap-0">
                 <div className="border border-[#24201a] bg-[#fbf7e9] p-3 shadow-[4px_4px_0_#24201a] lg:hidden">
                     <div className="flex items-start justify-between gap-3">
                         <div>
